@@ -5,36 +5,43 @@
 import netaddr
 from netifaces import interfaces, ifaddresses, AF_INET6
 import subprocess
-import pprint
 
-addrs = []
-prefix = None
+addr_list = []
+prefix_list = []
+route_list = []
+
+class PrefixException(Exception):
+    def __init___(self,msg,prefixes):
+      Exception.__init__(self,msg,prefixes)
 
 for ifaceName in interfaces():
     if ifaceName == 'lo':
       continue
-    #addrs = ifaddresses(ifaceName)
 
     addresses = [i['addr'] for i in ifaddresses(ifaceName).setdefault(AF_INET6, [{'addr':'No IP addr'}] )]
-    pprint.pprint(addresses)
     for a in addresses:
       if a.lower().startswith('fe80:'):
         addresses.remove(a)
-      print(a)
-    addrs.extend(addresses)
+    addr_list.extend(addresses)
 
-    routes = subprocess.Popen(['/usr/sbin/ip', '-6', 'route', 'list', 'dev', ifaceName, 'proto', 'kernel'], stdout=subprocess.PIPE)
+    routes = subprocess.Popen(
+      ['/usr/sbin/ip', '-6', 'route', 'list', 'dev', ifaceName, 'proto', 'kernel'],
+      stdout=subprocess.PIPE)
     for line in routes.stdout.readlines():
       p = line.split()[0]
       mylen = netaddr.IPNetwork(p).prefixlen
       if mylen < 64:
-        prefix = p
+        route_list.append(p)
 
-pprint.pprint(addrs)
-if len(addrs) == 0:
-  raise ValueError('oops!')
+for p in route_list:
+  for a in addr_list:
+    if len(netaddr.cidr_merge([a,p])) == 1:
+      prefix_list.append(p)
+    else:
+      prefix_list.remove(p)
 
-#net_compare = len(netaddr.cidr_merge(['2601:43:0:f230:ba27:ebff:fe6e:2ddc','2601:43:0:f230::/62']))
-net_compare = len(netaddr.cidr_merge([addrs[0],prefix]))
-if net_compare == 1:
-  print('in subnet')
+if len(prefix_list) == 0:
+  raise PrefixException("No adequate prefixes found: size must be <= /63", None)
+elif len(prefix_list) > 1:
+  raise PrefixException("Too many prefixes - unsure how to proceed", prefix_list)
+
