@@ -1,4 +1,0 @@
-#install python-devel python-netaddr python-netifaces gcc
-install python-netaddr python-netifaces python-jinja2
-
-
