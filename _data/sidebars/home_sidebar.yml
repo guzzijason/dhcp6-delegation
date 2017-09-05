@@ -22,24 +22,32 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Introduction
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
+    - title: Example Network Design
+      url: /network.html
       output: web, pdf
 
-    - title: Supported features
-      url: /mydoc_supported_features.html
+  - title: Solution
+    output: web, pdf
+    folderitems:
+
+    - title: Summary
+      url: /summary.html
       output: web, pdf
 
-    - title: About the theme author
-      url: /mydoc_about.html
+    - title: FortiGate config
+      url: /fortigate.html
       output: web, pdf
 
-    - title: Support
-      url: /mydoc_support.html
+    - title: dd-wrt config
+      url: /dd-wrt.html
+      output: web, pdf
+
+    - title: DHCP6 config
+      url: /dhcp6.html
       output: web, pdf
 
