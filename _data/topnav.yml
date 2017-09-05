@@ -10,13 +10,13 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Jekyll Help
+    - title: More Info
       folderitems:
-        - title: Jekyll Talk
-          external_url: https://talk.jekyllrb.com
-        - title: Jekyll documentation
-          external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
-          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: dd-wrt
+          external_url: http://www.dd-wrt.com/site/index
+        - title: FortiGate 30E
+          external_url: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiGate_FortiWiFi_30E.pdf
+        - title: IPv6
+          external_url: https://en.wikipedia.org/wiki/IPv6
+        - title: Prefix Delegation
+          external_url: https://en.wikipedia.org/wiki/Prefix_delegation
