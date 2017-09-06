@@ -35,6 +35,10 @@ entries:
       url: /network_overview.html
       output: web, pdf
 
+  - title: Problems
+    output: web, pdf
+    folderitems:
+    
     - title: Problem 1 - Prefix too big
       url: /prefix64.html
       output: web, pdf
@@ -43,23 +47,16 @@ entries:
       url: /no_cascade.html
       output: web, pdf
       
-  - title: Solution
+  - title: Solutions
     output: web, pdf
     folderitems:
 
-    - title: Summary
-      url: /summary.html
+    - title: Solution 1 - Prefix hinting
+      url: /solution_prefix.html
       output: web, pdf
 
-    - title: FortiGate config
-      url: /fortigate.html
+    - title: Solution 2 - Prefix Cascading
+      url: /solution_cascade.html
       output: web, pdf
 
-    - title: dd-wrt config
-      url: /dd-wrt.html
-      output: web, pdf
-
-    - title: DHCP6 config
-      url: /dhcp6.html
-      output: web, pdf
 
