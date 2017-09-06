@@ -27,10 +27,22 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Example Network Design
-      url: /network.html
+    - title: Example Fan Network
+      url: /fan.html
+      output: web, pdf
+      
+    - title: Example Tree Network
+      url: /network_overview.html
       output: web, pdf
 
+    - title: Problem 1 - Prefix too big
+      url: /prefix64.html
+      output: web, pdf
+
+    - title: Problem 2 - Can't cascade delegation
+      url: /no_cascade.html
+      output: web, pdf
+      
   - title: Solution
     output: web, pdf
     folderitems:
