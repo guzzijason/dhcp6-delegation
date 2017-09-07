@@ -32,7 +32,7 @@ entries:
       output: web, pdf
       
     - title: Example Tree Network
-      url: /network_overview.html
+      url: /tree.html
       output: web, pdf
 
   - title: Problems

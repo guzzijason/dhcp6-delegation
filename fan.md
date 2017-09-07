@@ -1,5 +1,5 @@
 ---
-title: Fan Network
+title: Example Fan Network
 layout: page
 comments: true
 search: true

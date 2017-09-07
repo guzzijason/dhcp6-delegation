@@ -7,3 +7,5 @@ prefix-delegation: "An upstream provider assigns a routable block of addresses t
 SNAT: "Source Network Address Translation: allows multiple internal devices on a (usually) private network to communicate on the Internet via a single shared public IP assigned to the upstream interface of the gateway"
 
 ULA: "Unique Local Address: private addresses in the fc00::/7 block , defined in RFC 4193; not routable on the Internet"
+
+VLAN: "Virtual LAN: packets for different networks are separated on switch, by either grouping physical ports into separate logical switches, or by use of VLAN tagging so that traffic for the different networks can share physical links"
