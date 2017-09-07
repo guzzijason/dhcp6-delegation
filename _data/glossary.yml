@@ -4,6 +4,8 @@ dual-stack: "Running both IPv4 and IPv6 protocols together, with IPv6 preferred 
 
 prefix-delegation: "An upstream provider assigns a routable block of addresses to a downstream router, which can then be used to automatically configure clients of the downstream router using SLAAC or DHCP6"
 
+SLAAC: "StateLess Address Auto-Configuration: part of the IPv6 protocol, gateways advertise their prefix info to clients, and clients use this to generate their own IPv6 address in that prefix and auto-configure their interface"
+
 SNAT: "Source Network Address Translation: allows multiple internal devices on a (usually) private network to communicate on the Internet via a single shared public IP assigned to the upstream interface of the gateway"
 
 ULA: "Unique Local Address: private addresses in the fc00::/7 block , defined in RFC 4193; not routable on the Internet"

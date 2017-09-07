@@ -33,7 +33,7 @@ This prefix delegation is initiated by the <a href="#" data-toggle="tooltip" dat
 
 {% include note.html content='A word aobut IPv6 prefixes, shall we? Total address space is 128 bits, however the largest prefix (smallest netblock) which should be delegated for a network is 64 bits in size. That means, the **smallest** IPv6 network consists of **~18.4 quintillion** addresses, give or take a few quadrillion. You may be thinking, "ZOMG! WE\'RE WASTING SPACE! WE\'RE GOING TO RUN OUT OF ADDRESSES IN NO TIME!" Well, don\'t worry... that\'s a common reaction. If it helps, please just consider that there\'s still 64 bits left for the network portion of the address - that\'s like **~10 orders of magnitude** more addresses than the entire IPv4 internet, **just** for the network prefixes! In other words, don\'t sweat it. We\'ll talk more abou this later, but for now... just let it sink in for a bit.' %}
 
-At this point, any gateway worth it's salt has configured it's interfaces with the appropriate addresses, and due to the _magic of IPv6_, any IPv6-enabled hosts on the inside network should auto-configure themselves with a real-live routable IPv6 address. This was a lot of words about a really simple process - it probably only required clicking a check-box in the gateway config GUI, if you had to do anything at all.
+At this point, any gateway worth its salt has configured it's interfaces with the appropriate addresses, and due to the _magic of IPv6_, any IPv6-enabled hosts on the inside network should auto-configure themselves with a real-live routable IPv6 address. This was a lot of words about a really simple process - it probably only required clicking a check-box in the gateway config GUI, if you had to do anything at all.
 
 -----
 
