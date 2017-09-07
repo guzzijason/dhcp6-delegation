@@ -1,11 +1,9 @@
-jekyll_platform: "Jekyll is a static site generator that builds sites using most modern web technologies."
+cpe: "Customer Premises Equipment: network gear residing within the subscriber's home"
 
-fractious: "Like a little mischevious child, full of annoying and constant trouble."
+dual-stack: "Running both IPv4 and IPv6 protocols together, with IPv6 preferred if it is available"
 
-gratuitous: "Something that is unwarranted and uncouth, like the social equivalent of a flagrant foul."
+prefix-delegation: "An upstream provider assigns a routable block of addresses to a downstream router, which can then be used to automatically configure clients of the downstream router using SLAAC or DHCP6"
 
-haughty: "Proud and flaunting it. Holding your head high up like a snooty, too-good-for-everything rich person."
+SNAT: "Source Network Address Translation: allows multiple internal devices on a (usually) private network to communicate on the Internet via a single shared public IP assigned to the upstream interface of the gateway"
 
-impertinent: "Someone acting rude and insensitive to others."
-
-intrepid: "Brave and courageous especially in a difficult, dangerous situation."
+ULA: "Unique Local Address: private addresses in the fc00::/7 block , defined in RFC 4193; not routable on the Internet"

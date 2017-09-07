@@ -37,8 +37,9 @@ Occasionally, I've been known to make things difficult fore myself. Moreso than 
 
 The upshot of this is that what I envisioned to be a relatively seamless transition to IPv6... was not. At all.
 
+-----
 
-### Next Page -> [Example Fan Network](fan.html)
+**Next Page -> [Example Fan Network](fan.html)**
 
 
 
