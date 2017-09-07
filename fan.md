@@ -39,4 +39,6 @@ At this point, any gateway worth it's salt has configured it's interfaces with t
 
 **[Introduction](index.html) <- Previous Page \| Next Page -> [Example Tree Network](tree.html)**
 
+-----
+
 [RFC 3633]: https://tools.ietf.org/html/rfc3633

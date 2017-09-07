@@ -41,6 +41,8 @@ The upshot of this is that what I envisioned to be a relatively seamless transit
 
 **Next Page -> [Example Fan Network](fan.html)**
 
+-----
+
 
 
 [Comcast really ramped up its IPv6 deployment]: http://corporate.comcast.com/comcast-voices/comcast-reaches-key-milestone-in-launch-of-ipv6-broadband-network
