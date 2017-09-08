@@ -4,7 +4,7 @@ layout: page
 comments: true
 search: true
 sidebar: home_sidebar
-topnav: topna
+topnav: topnav
 ---
 
 <ul id="profileTabs" class="nav nav-tabs">
