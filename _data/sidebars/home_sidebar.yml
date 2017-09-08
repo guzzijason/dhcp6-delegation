@@ -35,27 +35,27 @@ entries:
       url: /tree.html
       output: web, pdf
 
-  - title: Problems
+  - title: Problem 1 - Prefix too big
     output: web, pdf
     folderitems:
     
-    - title: Problem 1 - Prefix too big
+    - title: Why it won't work
       url: /prefix64.html
       output: web, pdf
 
-    - title: Problem 2 - Can't cascade delegation
-      url: /no_cascade.html
+    - title: Solution - get a smaller prefix
+      url: /solution_prefix.html
       output: web, pdf
       
-  - title: Solutions
+  - title: Problem 2 - Can't cascade
     output: web, pdf
     folderitems:
 
-    - title: Solution 1 - Prefix hinting
-      url: /solution_prefix.html
+    - title: Why it won't work
+      url: /no_cascade.html
       output: web, pdf
 
-    - title: Solution 2 - Prefix Cascading
+    - title: Solution - set up DHCP6
       url: /solution_cascade.html
       output: web, pdf
 

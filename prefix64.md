@@ -29,13 +29,11 @@ Any decent gateway device that supports [RFC 3633] delegation requests _should_ 
 
 If you are getting the default ::/64 prefix, and make a change to the hint, it may take some time before the you see that change take effect, so don't expect it to be immediate. At least, it wasn't for me - I think it was a day or two before I finally noticed the new prefix delegation showing up on my gateway. YMMV.
 
-I'll give some configuration example for prefix hinting in the Solutions section of this document, but if you're impatient, you can [skip ahead](solution_prefix.html)
-
 -----
 
-**[Example Tree Network](tree.html) <- Previous Page \| Next Page -> [Problem 2 - Can't cascade delegation](no_cascade.html)**
+**[Example Tree Network](tree.html) <- Previous Page \| Next Page -> [Solution - Get a smaller prefix](solution_prefix.html)**
 
-
+-----
 
 [IPv6 calculators]: https://subnettingpractice.com/ipv6_subnetting.html
 [RFC 3633]: https://tools.ietf.org/html/rfc3633

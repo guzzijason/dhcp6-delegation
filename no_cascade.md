@@ -33,7 +33,7 @@ In any case, I was stuck. I had the prefixes, but couldn't dynamically apply the
 
 -----
 
-**[Problem 1 - Prefix too big](prefix64.html) <- Previous Page \| Next Page -> [Solution 1 - Prefix hinting](solution_prefix.html)**
+** [Solution - Get a smaller prefix](solution_prefix.html) <- Previous Page \| Next Page -> [Solution - Set up DHCP6](solution_cascade.html)**
 
 -----
 
