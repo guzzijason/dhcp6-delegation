@@ -5,16 +5,13 @@ comments: true
 search: true
 sidebar: home_sidebar
 topnav: topnav
-summary: |-
-  **THIS DOCUMENT IS A WORK-IN_PROGRESS!**
-
-  In simple fan-type networks, the promise of IPv6 auto-configuration is fairly easy to achieve. However, in the case of a tree-type network with routers placed behind the primary ISP gateway, the situation get s bit more complex. This document will describe the issues encountered in my environments, and the solutions I came up with to get things working.
+summary: In simple networks, the promise of IPv6 auto-configuration is fairly easy
+  to achieve. However, in the case of a tree-type network, the situation get s bit
+  more complex. This document will describe the issues encountered in my environment,
+  and the solutions I came up with to get things working.
 permalink: index.html
 keywords: IPv6, prefix delegation, dhcp6, dhcpv6, fortinet, fortigate, dd-wrt, router,
   SLAAC, how-to
-description: Adventures in enabling cascading IPv6 publicly-routable prefix delegation
-  in a tree-type home network, using DHCPv6 IA_PD delegation of sub-prefixes to interior
-  routers...
 ---
 
 ## The future is now
