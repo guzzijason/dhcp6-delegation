@@ -12,6 +12,9 @@ summary: |-
 permalink: index.html
 keywords: IPv6, prefix delegation, dhcp6, dhcpv6, fortinet, fortigate, dd-wrt, router,
   SLAAC, how-to
+description: Adventures in enabling cascading IPv6 publicly-routable prefix delegation
+  in a tree-type home network, using DHCPv6 IA_PD delegation of sub-prefixes to interior
+  routers...
 ---
 
 ## The future is now
