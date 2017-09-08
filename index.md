@@ -1,5 +1,5 @@
 ---
-title: IPv6 sub-delegation for tree-type networks in SOHO environments
+title: IPv6 prefix sub-delegation in SOHO networks
 layout: page
 comments: true
 search: true
@@ -10,6 +10,8 @@ summary: |-
 
   In simple fan-type networks, the promise of IPv6 auto-configuration is fairly easy to achieve. However, in the case of a tree-type network with routers placed behind the primary ISP gateway, the situation get s bit more complex. This document will describe the issues encountered in my environments, and the solutions I came up with to get things working.
 permalink: index.html
+keywords: IPv6, prefix delegation, dhcp6, dhcpv6, fortinet, fortigate, dd-wrt, router,
+  SLAAC, how-to
 ---
 
 ## The future is now

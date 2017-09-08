@@ -4,6 +4,8 @@ dual-stack: "Running both IPv4 and IPv6 protocols together, with IPv6 preferred 
 
 prefix-delegation: "An upstream provider assigns a routable block of addresses to a downstream router, which can then be used to automatically configure clients of the downstream router using SLAAC or DHCP6"
 
+route-advertisements: "Supports autoconfiguration on IPv6 networks - when clients start up, they solicit router information on their network, and the router responds with an advertisement of prefix info that the client uses to complete autoconfig"
+
 SLAAC: "StateLess Address Auto-Configuration: part of the IPv6 protocol, gateways advertise their prefix info to clients, and clients use this to generate their own IPv6 address in that prefix and auto-configure their interface"
 
 SNAT: "Source Network Address Translation: allows multiple internal devices on a (usually) private network to communicate on the Internet via a single shared public IP assigned to the upstream interface of the gateway"
