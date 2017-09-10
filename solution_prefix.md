@@ -22,6 +22,9 @@ summary: This page provides examples for obtaining a ::/62 prefix delegation fro
     <div role="tabpanel" class="tab-pane active" id="fortigate">
 
         <p>
+				<b>Note: FortiOS v5.6.2 build1486 (17 August 2017) firmware is used as of this writing.</b>
+				</p>
+				<p>
 				Configure the upstream WAN interface for DHCP with an IA_PD prefix delegation request. Specify a 62-bit prefix hint:
 				</p>
 				<p>
@@ -107,7 +110,7 @@ end</pre>
       <div role="tabpanel" class="tab-pane" id="dd-wrt">
 
         <p>
-				Note: this using DD-WRT firmware <b>v3.0-r32170 big (06/01/17)</b>. The firmware version I had been using previously did not have the <b>SETUP -> IPv6</b> tab.
+				<b>Note: DD-WRT v3.0-r32170 big (06/01/17) firmware is used as of this writing.</b> The firmware version I had been using previously did not have the <b>SETUP -> IPv6</b> tab.
 				</p>
 				<p>
 				<img src="images/dd-wrt_prefix.png" border="1"/>
