@@ -5,6 +5,8 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/guzzijason/dhcp6-delegation
+    - title: About Me
+      url: about.html
 
 #Topnav dropdowns
 topnav_dropdowns:
