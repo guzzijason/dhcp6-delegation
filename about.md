@@ -16,4 +16,4 @@ Two decades or so of system and networking experience in large environments. I'v
 
 This IPv6 project documented here was just for fun (??) and my own edification. Getting functional IPv6 in my home/lab environment was an added bonus, I guess.
 
-Professionally, my current area of focus is supporting the Comcast CDN team and their [Apache Traffic Control](http://trafficcontrol.apache.org/) network, working to improve config management, troubleshooting content delivery issues, DevOps'ing all the things, and generally doing my best to make sure the bits are flowing.
+Professionally, my current area of focus is supporting the Comcast CDN team and their [Apache Traffic Control](http://trafficcontrol.apache.org/) network, working to improve config management, troubleshooting content delivery issues, DevOps'ing all the things, and generally doing my best to make sure the IP video bits are flowing for over 20 million customers.
