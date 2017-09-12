@@ -10,8 +10,8 @@ summary: In simple networks, the promise of IPv6 auto-configuration is fairly ea
   more complex. This document will describe the issues encountered in my environment,
   and the solutions I came up with to get things working.
 permalink: index.html
-keywords: IPv6, prefix delegation, dhcp6, dhcpv6, fortinet, fortigate, dd-wrt, router,
-  SLAAC, how-to
+keywords: IPv6, prefix delegation, dhcp6, dhcpv6, fortinet, fortigate, fortios, dd-wrt,
+  router, SLAAC, DD-wrt,  how-to
 ---
 
 ## The future is now
