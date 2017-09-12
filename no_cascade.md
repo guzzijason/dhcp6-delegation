@@ -29,7 +29,7 @@ I believe DD-WRT has a DHCP6 server which _may_ be able to handle prefix delegat
 
 In any case, I was stuck. I had the prefixes, but couldn't dynamically apply them. IPv6 was working everywhere except for on the primary LAN used by household clients. All dressed up with no place to go, as it were.
 
-{% include callout.html content="If you have a SOHO-class gateway device that you know natively supports DHCP6 IA_PD delegation, please... let us know about it in the comments! " type="info" %} 
+{% include callout.html content="If you have a SOHO-class gateway device that you know natively supports DHCP6 IA_PD delegation, please... let us know about it in the comments! " type="info" %}
 
 -----
 
