@@ -20,7 +20,7 @@ This is the type of home network that most people are familiar with. The gateway
 
 ## Adding IPv6
 
-Unless you like to live on the bleeding edge, and enjoy internet service of dubious reliability, currently (as of 2017) you are probably going to be implimenting <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.dual-stack}}">dual-stack</a> networking, using both IPv4 and IPv6 addressing. In dual-stack, addresses for each protocol are conigured independenly, and function independently. This is meant to be a transitional mode, used while more sites ramp up their IPv6 support, and IPv4 is eventually phased out. For now, cover all bases - run both.
+Unless you like to live on the bleeding edge, and enjoy internet service of dubious reliability, currently (as of 2017) you are probably going to be implimenting <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.dual-stack}}">dual-stack</a> networking, using both IPv4 and IPv6 addressing. In dual-stack, addresses for each protocol are configured independenly, and function independently. This is meant to be a transitional mode, used while more sites ramp up their IPv6 support, and IPv4 is eventually phased out. For now, cover all bases - run both.
 
 Once IPv6 is enable on the gateway, it will automatically obtain a individual ::/128 address from the ISP, which will be used on it's upstream (or external) interface. At this point, you have a couple of options:
 

@@ -33,7 +33,7 @@ Unfortuantely...
 
 ## I tend to be a glutton for punishment
 
-Occasionally, I've been known to make things difficult fore myself. Moreso than they need to be, at least. It turns out that one of these instances happens to be the home network that I maintain. Most folks are content to hook up their gateway (such as one of the [residential gateways from Xfinity], or routers from Linksys, Asus, etc, etc) connect their computers and other wireless devices, and carry on with life. This is essentially a fan type network - 1 gateway, bunch of devices connected behind it.
+Occasionally, I've been known to make things difficult for myself. Moreso than they need to be, at least. It turns out that one of these instances happens to be the home network that I maintain. Most folks are content to hook up their gateway (such as one of the [residential gateways from Xfinity], or routers from Linksys, Asus, etc, etc) connect their computers and other wireless devices, and carry on with life. This is essentially a fan type network - 1 gateway, bunch of devices connected behind it.
 
 (Un)fortunately, I don't have that. My main gateway has multiple separate networks behind it, some flat and some not-so-flat - a tree type network. This means that I have yet another router behind the primary gateway.
 
