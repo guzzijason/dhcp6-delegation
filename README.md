@@ -16,10 +16,11 @@ Tested on **CentOS 7.3.1611**.
 
 **Install:**
 
-1. `yum install python-netaddr python-jinja2`
+1. `yum install dhcp python-netaddr python-jinja2`
 2. copy script to server
 3. `chmod 755 /path/to/dhcp6-prefix-config.py`
-3. set up cron job to run **as root** on some periodic basis (in case upstream ISP delegation changes and a new config needs to be generated)
+4. `systemctl enable dhcpd6`
+4. set up cron job to run **as root** on some periodic basis (in case upstream ISP delegation changes and a new config needs to be generated)
 
 -----
 
