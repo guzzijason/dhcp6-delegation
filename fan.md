@@ -22,7 +22,7 @@ This is the type of home network that most people are familiar with. The gateway
 
 Unless you like to live on the bleeding edge, and enjoy internet service of dubious reliability, currently (as of 2017) you are probably going to be implimenting <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.dual-stack}}">dual-stack</a> networking, using both IPv4 and IPv6 addressing. In dual-stack, addresses for each protocol are configured independenly, and function independently. This is meant to be a transitional mode, used while more sites ramp up their IPv6 support, and IPv4 is eventually phased out. For now, cover all bases - run both.
 
-Once IPv6 is enable on the gateway, it will automatically obtain a individual ::/128 address from the ISP, which will be used on it's upstream (or external) interface. At this point, you have a couple of options:
+Once IPv6 is enabled on the gateway, it will automatically obtain an individual ::/128 address from the ISP, which will be used on its upstream (or external) interface. At this point, you have a couple of options:
 
 * you could configure a private IPv6 (<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.ULA}}">ULA</a>) network on the inside network, and continue doing SNAT, or
 * have your gateway device request a "<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.prefix-delegation}}">prefix delegation</a>" of routable addresses from the ISP for use on your inside network
