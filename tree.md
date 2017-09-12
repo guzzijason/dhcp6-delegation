@@ -19,7 +19,7 @@ This example is more similar to what I'm dealing with in my home. In this partic
 
 **VLAN2** is where things start getting more interesting. On this VLAN, there is a second router ([DD-WRT] in this case) providing service to both Wi-Fi and wired clients on a completely separate network. Clients behind the DD-WRT router get their addressing from DD-WRT, and use that router as their gateway. The DD-WRT router, in turn, uses the FortiGate as it's gateway to the rest of the network, and the Internet. The FortiGate can't "see" hosts that are behind the DD-WRT; it only knows how to  get to them by way of the other router.
 
-This still isn't a terribly complex, but the fact that we now have a routed branch in our network, it's basically considered a "tree" network, rather than a simple "fan". And now that we have an understanding of this sort of network, lets talk about where things can potentially go off the rails in the IPv6 network...
+This still isn't terribly complex, but the fact that we now have a routed branch in our network, it's basically considered a "tree" network, rather than a simple "fan". And now that we have an understanding of this sort of network, lets talk about where things can potentially go off the rails in the IPv6 network...
 
 -----
 
