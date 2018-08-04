@@ -15,7 +15,7 @@ Hosts on IPv6 networks should have no problems autoconfiguring themselves with S
 
 A DD-WRT router might be able to be coaxed into performing this job, but I'm not sure. I've not personally had much luck getting `dhcpd6`  runinng on DD-WRT, and I haven't tried configuring `dnsmasq` to do so (assuming it can?). The truth is, I haven't had much of need to do this on the DD-WRT router on my network, because in my case, it is the delegation **client**, and nto the delegation **server**. Rather, my DD-WRT router needs to be the one making the delegation request upstream.
 
-So, in a perfect world, the FortiGate in my network would have it's DHCP6 server configured to serve `IA_PD` requests. Currently, that does not seem to be the case. So I had to come up with an alternate solution.
+So, in a perfect world, the FortiGate in my network would have it's DHCP6 server configured to serve `IA_PD` requests. Currently, that does not seem to be the case. So I had to come up with an alternate solution. **(Note: FortiOS 6.0 from FortiGate does support downstream prefix delegation now - see comments at the bottom of the page)**
 
 ## Set up your own DHCP6 prefix server
 
